@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume | Professional Profile</title>
+  <meta name="description" content="A modern responsive resume UI with profile, skills, experience, projects, and education sections.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Resume home">
+      <span>YG</span>
+      Resume
+    </a>
+    <nav aria-label="Resume sections">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="print-button" type="button" data-print>Print</button>
+  </header>
+
+  <main class="resume-shell">
+    <section class="hero-card">
+      <div class="profile-mark" aria-hidden="true">YG</div>
+      <div class="hero-copy">
+        <p class="eyebrow">Open to frontend and full-stack roles</p>
+        <h1>Yash Gupta</h1>
+        <p class="role">Frontend Developer · React · JavaScript · UI Engineering</p>
+        <p class="summary">
+          Detail-focused developer who builds fast, responsive, and polished web interfaces.
+          Comfortable turning product requirements into clean UI, reusable components, and smooth user journeys.
+        </p>
+        <div class="quick-actions">
+          <a class="primary-action" href="mailto:yash.gupta@example.com">Hire me</a>
+          <a class="secondary-action" href="#projects">View projects</a>
+        </div>
+      </div>
+      <aside class="contact-panel" id="contact" aria-label="Contact details">
+        <div>
+          <span>Email</span>
+          <a href="mailto:yash.gupta@example.com">yash.gupta@example.com</a>
+        </div>
+        <div>
+          <span>Phone</span>
+          <a href="tel:+919876543210">+91 98765 43210</a>
+        </div>
+        <div>
+          <span>Location</span>
+          <p>India · Remote friendly</p>
+        </div>
+        <div>
+          <span>Portfolio</span>
+          <a href="#" aria-label="Portfolio placeholder">portfolio.example.com</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="stats-grid" aria-label="Career highlights">
+      <article>
+        <strong>2+</strong>
+        <span>Years practice</span>
+      </article>
+      <article>
+        <strong>14</strong>
+        <span>UI projects</span>
+      </article>
+      <article>
+        <strong>95%</strong>
+        <span>Responsive score</span>
+      </article>
+      <article>
+        <strong>6</strong>
+        <span>Core skills</span>
+      </article>
+    </section>
+
+    <div class="content-grid">
+      <aside class="sidebar">
+        <section class="card" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow">Expertise</p>
+            <h2>Skills</h2>
+          </div>
+          <div class="skill-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Bootstrap</span>
+            <span>Git</span>
+            <span>Responsive UI</span>
+            <span>API Integration</span>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <p class="eyebrow">Tools</p>
+            <h2>Workflow</h2>
+          </div>
+          <ul class="check-list">
+            <li>Component-based page building</li>
+            <li>Mobile-first responsive design</li>
+            <li>Cross-browser layout testing</li>
+            <li>Clean Git-based delivery</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Qualification</h2>
+          </div>
+          <div class="timeline compact">
+            <article>
+              <span>2022 - 2025</span>
+              <h3>Bachelor of Computer Applications</h3>
+              <p>Modern College of Technology</p>
+            </article>
+            <article>
+              <span>2021</span>
+              <h3>Senior Secondary</h3>
+              <p>Science and Mathematics</p>
+            </article>
+          </div>
+        </section>
+      </aside>
+
+      <div class="main-column">
+        <section class="card" id="experience">
+          <div class="section-heading row">
+            <div>
+              <p class="eyebrow">Career</p>
+              <h2>Experience</h2>
+            </div>
+            <span class="badge">Available immediately</span>
+          </div>
+          <div class="timeline">
+            <article>
+              <span>2025 - Present</span>
+              <h3>Frontend Developer · Freelance</h3>
+              <p>
+                Designed responsive websites, landing pages, dashboards, and ecommerce screens
+                using HTML, CSS, JavaScript, and React patterns.
+              </p>
+              <ul>
+                <li>Built reusable UI blocks for cards, forms, navigation, and product layouts.</li>
+                <li>Improved mobile readability and reduced layout shift across key pages.</li>
+                <li>Connected frontend flows with mock APIs and browser-based storage.</li>
+              </ul>
+            </article>
+            <article>
+              <span>2024 - 2025</span>
+              <h3>Web Development Intern · Digital Studio</h3>
+              <p>
+                Supported production website updates, created responsive page sections,
+                and collaborated with designers to translate mockups into browser-ready UI.
+              </p>
+              <ul>
+                <li>Converted design references into clean HTML and CSS layouts.</li>
+                <li>Tested pages across desktop, tablet, and mobile breakpoints.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="card" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-icon">EC</div>
+              <h3>Modern Ecommerce UI</h3>
+              <p>Product listing, wishlist, cart, checkout, and responsive shopping pages.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            </article>
+            <article class="project-card">
+              <div class="project-icon">DB</div>
+              <h3>Admin Dashboard</h3>
+              <p>Analytics cards, tables, filters, activity feed, and compact data views.</p>
+              <div class="tags"><span>React</span><span>UI</span><span>Charts</span></div>
+            </article>
+            <article class="project-card">
+              <div class="project-icon">PF</div>
+              <h3>Portfolio Website</h3>
+              <p>Personal brand site with smooth sections, project cards, and contact form.</p>
+              <div class="tags"><span>Design</span><span>Responsive</span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <p class="eyebrow">Strengths</p>
+            <h2>What I bring</h2>
+          </div>
+          <div class="strength-grid">
+            <article>
+              <h3>Pixel-aware execution</h3>
+              <p>Comfortable refining spacing, hierarchy, and responsive behavior until the page feels finished.</p>
+            </article>
+            <article>
+              <h3>Clear code structure</h3>
+              <p>Writes readable HTML, maintainable CSS, and practical JavaScript for real user flows.</p>
+            </article>
+            <article>
+              <h3>Fast learning</h3>
+              <p>Quickly adapts to existing project patterns, tools, and team delivery standards.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Resume UI template · Replace placeholder details with the final resume content.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
